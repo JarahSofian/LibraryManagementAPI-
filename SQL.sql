@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS librarydb;
+USE librarydb;
+
+CREATE TABLE Books(
+ Id INT AUTO_INCREMENT PRIMARY KEY,
+ Title VARCHAR(200),
+ Author VARCHAR(200),
+ IsBorrowed BIT
+);
